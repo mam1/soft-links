@@ -4,15 +4,15 @@
 # device; this may be used with UUID= as a more robust way to name devices
 # that works even if disks are added and removed. See fstab(5).
 #
-# <file system>                              <mount point>     <type>    <options>                   <dump>  <pass>
-#
 # / was on /dev/nvme0n1p2 during installation
-UUID=507b9bdb-1381-4572-a7bc-ab2d4d442433       /               ext4    errors=remount-ro                    0 1
-#
 # /boot/efi was on /dev/nvme0n1p1 during installation
-UUID=953C-33EC                                  /boot/efi       vfat    umask=0077                           0 1
 #
-/swapfile                                       none            swap    sw                                   0 0
+# <file system>                              <mount point>     <type>    <options>                     <dump>  <pass>
+
+#mount system partitions
+UUID=507b9bdb-1381-4572-a7bc-ab2d4d442433   /                   ext4    errors=remount-ro                    0 1
+UUID=953C-33EC                              /boot/efi           vfat    umask=0077                           0 1
+/swapfile                                   none                swap    sw                                   0 0
 #
 #mount primary drives
 UUID=048e4f2e-f223-4619-b68f-3d239f2cc8ad   /media/aux          ext4     auto,user,rw,suid,dev,exec,async    0 2
@@ -22,6 +22,7 @@ UUID=c779b7ed-751e-4927-9f44-113da54db6cd   /media/BlackHole    ext4     auto,us
 UUID=217535ac-3164-40d5-813f-35e63d83c0af   /media/sysuts       ext4     auto,user,rw,suid,dev,exec,async    0 2
 #
 #define backup drives but do not mount
+UUID=27c3838e-1e85-45bc-8d07-4e9ec9d62ed1   /mnt/system-images  ext4     noauto,user,rw,suid,dev,exec,async  0 0
 UUID=5c987372-bb54-440e-8a37-7dd51c988524   /mnt/VideoBkp       ext4     noauto,user,rw,suid,dev,exec,async  0 0
 UUID=48d3ba3f-65eb-4ef1-a143-246e89f1988c   /mnt/CalderaBkp     ext4     noauto,user,rw,suid,dev,exec,async  0 0
 UUID=6bb923c4-6ee3-4623-bdf9-a3a9d06a6b9b   /mnt/BlackHoleBkp   ext4     noauto,user,rw,suid,dev,exec,async  0 0
