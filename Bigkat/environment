@@ -1,1 +1,6 @@
 PATH="/home/mam1/Git/scriptlib:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+
+USERDIR='/home/mam1'
+PUID=1000
+PGID=1000
+TZ='America/Denver'

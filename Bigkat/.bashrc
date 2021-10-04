@@ -118,3 +118,6 @@ fi
 
 # my aliases
 alias db='mariadb-start.sh'
+
+#establish my environment
+. mystartup.sh
