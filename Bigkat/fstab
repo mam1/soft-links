@@ -13,7 +13,7 @@
 UUID=507b9bdb-1381-4572-a7bc-ab2d4d442433   /                   ext4    errors=remount-ro                    0 1
 UUID=953C-33EC                              /boot/efi           vfat    umask=0077                           0 1
 /swapfile                                   none                swap    sw                                   0 0
-#
+
 #mount primary drives
 UUID=048e4f2e-f223-4619-b68f-3d239f2cc8ad   /media/aux          ext4     auto,user,rw,suid,dev,exec,async    0 2
 UUID=31dcb616-a08f-4d66-9056-53feeca5548b   /media/Video        ext4     auto,user,rw,suid,dev,exec,async    0 2
@@ -27,7 +27,7 @@ UUID=f0f91a83-22e4-469f-8dc5-ba2d05043bb0   /mnt/dataBkp        ext4     noauto,
 UUID=c887fd89-857d-4efa-be3b-d6be275a0045   /mnt/MusicBkp       ext4     noauto,user,rw,suid,dev,exec,async  0 0
 UUID=0729bcf0-2874-45b8-beca-4681914037e1   /mnt/PicturesBkp    ext4     noauto,user,rw,suid,dev,exec,async  0 0
 
-#UUID=48d3ba3f-65eb-4ef1-a143-246e89f1988c   /mnt/CalderaBkp     ext4     noauto,user,rw,suid,dev,exec,async  0 0
-#UUID=6bb923c4-6ee3-4623-bdf9-a3a9d06a6b9b   /mnt/BlackHoleBkp   ext4     noauto,user,rw,suid,dev,exec,async  0 0
-#UUID=43717e92-a042-449a-912c-9d089cd3383b   /media/Caldera      ext4     noauto,user,rw,suid,dev,exec,async    0 2
-#UUID=c779b7ed-751e-4927-9f44-113da54db6cd   /media/BlackHole    ext4     noauto,user,rw,suid,dev,exec,async    0 2
+UUID=48d3ba3f-65eb-4ef1-a143-246e89f1988c   /mnt/CalderaBkp     ext4     noauto,user,rw,suid,dev,exec,async  0 0
+UUID=6bb923c4-6ee3-4623-bdf9-a3a9d06a6b9b   /mnt/BlackHoleBkp   ext4     noauto,user,rw,suid,dev,exec,async  0 0
+UUID=43717e92-a042-449a-912c-9d089cd3383b   /media/Caldera      ext4     noauto,user,rw,suid,dev,exec,async  0 0
+UUID=c779b7ed-751e-4927-9f44-113da54db6cd   /media/BlackHole    ext4     noauto,user,rw,suid,dev,exec,async  0 0
