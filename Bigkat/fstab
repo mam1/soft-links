@@ -29,5 +29,5 @@ UUID=0729bcf0-2874-45b8-beca-4681914037e1   /mnt/PicturesBkp    ext4     noauto,
 
 #UUID=48d3ba3f-65eb-4ef1-a143-246e89f1988c   /mnt/CalderaBkp     ext4     noauto,user,rw,suid,dev,exec,async  0 0
 #UUID=6bb923c4-6ee3-4623-bdf9-a3a9d06a6b9b   /mnt/BlackHoleBkp   ext4     noauto,user,rw,suid,dev,exec,async  0 0
-#UUID=43717e92-a042-449a-912c-9d089cd3383b   /media/Caldera      ext4     auto,user,rw,suid,dev,exec,async    0 2
-#UUID=c779b7ed-751e-4927-9f44-113da54db6cd   /media/BlackHole    ext4     auto,user,rw,suid,dev,exec,async    0 2
+#UUID=43717e92-a042-449a-912c-9d089cd3383b   /media/Caldera      ext4     noauto,user,rw,suid,dev,exec,async    0 2
+#UUID=c779b7ed-751e-4927-9f44-113da54db6cd   /media/BlackHole    ext4     noauto,user,rw,suid,dev,exec,async    0 2
